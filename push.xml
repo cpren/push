@@ -14,21 +14,34 @@
                 <field name="NUM">1000</field>
               </block>
             </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <next>
+      <block type="movement_left" id="82">
+        <next>
+          <block type="robot_delay" id="84" inline="true">
+            <value name="DELAY">
+              <block type="math_number" id="85">
+                <field name="NUM">1000</field>
+              </block>
+            </value>
             <next>
-              <block type="movement_left" id="82">
+              <block type="movement_right" id="95">
                 <next>
-                  <block type="robot_delay" id="84" inline="true">
+                  <block type="robot_delay" id="96" inline="true">
                     <value name="DELAY">
-                      <block type="math_number" id="85">
+                      <block type="math_number" id="97">
                         <field name="NUM">1000</field>
                       </block>
                     </value>
                     <next>
-                      <block type="movement_right" id="95">
+                      <block type="movement_forward" id="98">
                         <next>
-                          <block type="robot_delay" id="96" inline="true">
+                          <block type="robot_delay" id="100" inline="true">
                             <value name="DELAY">
-                              <block type="math_number" id="97">
+                              <block type="math_number" id="101">
                                 <field name="NUM">1000</field>
                               </block>
                             </value>
@@ -46,6 +59,6 @@
           </block>
         </next>
       </block>
-    </statement>
+    </next>
   </block>
 </xml>
